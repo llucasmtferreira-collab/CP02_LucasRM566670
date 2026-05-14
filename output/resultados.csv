@@ -1,0 +1,100 @@
+tarefa,tecnica,input,resposta,esperado,acuracia,tokens_total,tokens_prompt,tokens_resposta,tempo_ms
+classificacao_sentimento,Zero-Shot,Produto chegou antes do prazo e a qualidade superou minhas e,POSITIVO,POSITIVO,100.0,209,165,44,1532
+classificacao_sentimento,Few-Shot,Produto chegou antes do prazo e a qualidade superou minhas e,POSITIVO,POSITIVO,100.0,281,238,43,1260
+classificacao_sentimento,Chain-of-Thought,Produto chegou antes do prazo e a qualidade superou minhas e,POSITIVO,POSITIVO,100.0,324,252,72,1757
+classificacao_sentimento,Role Prompting,Produto chegou antes do prazo e a qualidade superou minhas e,POSITIVO,POSITIVO,100.0,360,313,47,1408
+classificacao_sentimento,Zero-Shot,Veio completamente quebrado dentro da caixa. Péssima embalag,NEGATIVO,NEGATIVO,100.0,222,170,52,1830
+classificacao_sentimento,Few-Shot,Veio completamente quebrado dentro da caixa. Péssima embalag,NEGATIVO,NEGATIVO,100.0,294,243,51,1645
+classificacao_sentimento,Chain-of-Thought,Veio completamente quebrado dentro da caixa. Péssima embalag,NEGATIVO,NEGATIVO,100.0,340,257,83,1654
+classificacao_sentimento,Role Prompting,Veio completamente quebrado dentro da caixa. Péssima embalag,NEGATIVO,NEGATIVO,100.0,369,318,51,1593
+classificacao_sentimento,Zero-Shot,"Entrega no prazo, produto ok, mas a embalagem estava um pouc",MISTO,MISTO,100.0,234,169,65,1645
+classificacao_sentimento,Few-Shot,"Entrega no prazo, produto ok, mas a embalagem estava um pouc",MISTO,MISTO,100.0,311,242,69,1639
+classificacao_sentimento,Chain-of-Thought,"Entrega no prazo, produto ok, mas a embalagem estava um pouc",MISTO,MISTO,100.0,388,256,132,1866
+classificacao_sentimento,Role Prompting,"Entrega no prazo, produto ok, mas a embalagem estava um pouc",MISTO,MISTO,100.0,388,317,71,1496
+classificacao_sentimento,Zero-Shot,Tudo certo com o pedido. Recebi conforme descrito.,POSITIVO,NEUTRO,0.0,220,164,56,2784
+classificacao_sentimento,Few-Shot,Tudo certo com o pedido. Recebi conforme descrito.,POSITIVO,NEUTRO,0.0,335,237,98,1994
+classificacao_sentimento,Chain-of-Thought,Tudo certo com o pedido. Recebi conforme descrito.,POSITIVE,NEUTRO,0.0,336,251,85,1851
+classificacao_sentimento,Role Prompting,Tudo certo com o pedido. Recebi conforme descrito.,POSITIVO,NEUTRO,0.0,359,312,47,1467
+classificacao_sentimento,Zero-Shot,"Adorei o produto! Já é o terceiro que compro aqui, recomendo",POSITIVO,POSITIVO,100.0,221,169,52,2279
+classificacao_sentimento,Few-Shot,"Adorei o produto! Já é o terceiro que compro aqui, recomendo",POSITIVO,POSITIVO,100.0,289,242,47,3431
+classificacao_sentimento,Chain-of-Thought,"Adorei o produto! Já é o terceiro que compro aqui, recomendo",POSITIVO,POSITIVO,100.0,335,256,79,1713
+classificacao_sentimento,Role Prompting,"Adorei o produto! Já é o terceiro que compro aqui, recomendo",POSITIVO,POSITIVO,100.0,397,317,80,1875
+classificacao_urgencia,Zero-Shot,Meu cartão foi cobrado duas vezes no mesmo pedido. Preciso d,ALTA,ALTA,100.0,223,163,60,1514
+classificacao_urgencia,Few-Shot,Meu cartão foi cobrado duas vezes no mesmo pedido. Preciso d,ALTA,ALTA,100.0,268,232,36,1381
+classificacao_urgencia,Chain-of-Thought,Meu cartão foi cobrado duas vezes no mesmo pedido. Preciso d,ALTA,ALTA,100.0,375,265,110,2044
+classificacao_urgencia,Role Prompting,Meu cartão foi cobrado duas vezes no mesmo pedido. Preciso d,ALTA,ALTA,100.0,363,315,48,1373
+classificacao_urgencia,Zero-Shot,Gostaria de saber se o produto X está disponível em azul.,BAIXA,BAIXA,100.0,201,156,45,1323
+classificacao_urgencia,Few-Shot,Gostaria de saber se o produto X está disponível em azul.,BAIXA,BAIXA,100.0,276,225,51,1501
+classificacao_urgencia,Chain-of-Thought,Gostaria de saber se o produto X está disponível em azul.,BAIXA,BAIXA,100.0,322,258,64,1607
+classificacao_urgencia,Role Prompting,Gostaria de saber se o produto X está disponível em azul.,BAIXA,BAIXA,100.0,374,308,66,1580
+classificacao_urgencia,Zero-Shot,Meu pedido foi despachado há 8 dias e ainda não chegou. Pode,MEDIA,MEDIA,100.0,244,162,82,1830
+classificacao_urgencia,Few-Shot,Meu pedido foi despachado há 8 dias e ainda não chegou. Pode,MEDIA,MEDIA,100.0,379,231,148,2428
+classificacao_urgencia,Chain-of-Thought,Meu pedido foi despachado há 8 dias e ainda não chegou. Pode,MEDIA,MEDIA,100.0,354,264,90,2165
+classificacao_urgencia,Role Prompting,Meu pedido foi despachado há 8 dias e ainda não chegou. Pode,MEDIA,MEDIA,100.0,381,314,67,1528
+classificacao_urgencia,Zero-Shot,Recebi o produto errado. Preciso trocar antes do evento no f,ALTA,ALTA,100.0,243,160,83,1732
+classificacao_urgencia,Few-Shot,Recebi o produto errado. Preciso trocar antes do evento no f,ALTA,ALTA,100.0,283,229,54,1590
+classificacao_urgencia,Chain-of-Thought,Recebi o produto errado. Preciso trocar antes do evento no f,ALTA,ALTA,100.0,421,262,159,2611
+classificacao_urgencia,Role Prompting,Recebi o produto errado. Preciso trocar antes do evento no f,ALTA,ALTA,100.0,361,312,49,1476
+classificacao_urgencia,Zero-Shot,Quando vocês vão lançar a versão 2024 desse modelo?,BAIXA,BAIXA,100.0,247,155,92,1728
+classificacao_urgencia,Few-Shot,Quando vocês vão lançar a versão 2024 desse modelo?,BAIXA,BAIXA,100.0,294,224,70,1718
+classificacao_urgencia,Chain-of-Thought,Quando vocês vão lançar a versão 2024 desse modelo?,BAIXA,BAIXA,100.0,315,257,58,1523
+classificacao_urgencia,Role Prompting,Quando vocês vão lançar a versão 2024 desse modelo?,BAIXA,BAIXA,100.0,375,307,68,1543
+extracao_dados,Zero-Shot,Comprei um Notebook Dell Inspiron por R$3.800 há 3 dias e el,"{
+  ""produto"": ""Notebook Dell Inspiron"",
+  ""problema"": ""tela trincada"",
+  ""prazo","{'produto': 'Notebook Dell Inspiron', 'problema': 'tela trin",75.0,388,193,195,2829
+extracao_dados,Few-Shot,Comprei um Notebook Dell Inspiron por R$3.800 há 3 dias e el,"{""produto"": ""Notebook Dell Inspiron"", ""problema"": ""tela trincada"", ""prazo_mencio","{'produto': 'Notebook Dell Inspiron', 'problema': 'tela trin",75.0,517,317,200,3039
+extracao_dados,Chain-of-Thought,Comprei um Notebook Dell Inspiron por R$3.800 há 3 dias e el,"{
+  ""produto"": ""Notebook Dell Inspiron"",
+  ""problema"": ""tela trincada"",
+  ""prazo","{'produto': 'Notebook Dell Inspiron', 'problema': 'tela trin",75.0,438,274,164,2509
+extracao_dados,Role Prompting,Comprei um Notebook Dell Inspiron por R$3.800 há 3 dias e el,"{
+  ""produto"": ""Notebook Dell Inspiron"",
+  ""problema"": ""tela trincada"",
+  ""prazo","{'produto': 'Notebook Dell Inspiron', 'problema': 'tela trin",75.0,531,341,190,2563
+extracao_dados,Zero-Shot,O fone de ouvido Sony WH-1000XM5 que pedi parou de funcionar,"{
+  ""produto"": ""Sony WH-1000XM5"",
+  ""problema"": ""parou de funcionar"",
+  ""prazo_m","{'produto': 'Fone de ouvido Sony WH-1000XM5', 'problema': 'p",75.0,414,190,224,2596
+extracao_dados,Few-Shot,O fone de ouvido Sony WH-1000XM5 que pedi parou de funcionar,"{""produto"": ""Fone de ouvido Sony WH-1000XM5"", ""problema"": ""parou de funcionar"", ","{'produto': 'Fone de ouvido Sony WH-1000XM5', 'problema': 'p",100.0,550,314,236,3442
+extracao_dados,Chain-of-Thought,O fone de ouvido Sony WH-1000XM5 que pedi parou de funcionar,"{
+  ""produto"": ""Sony WH-1000XM5"",
+  ""problema"": ""parou de funcionar"",
+  ""prazo_m","{'produto': 'Fone de ouvido Sony WH-1000XM5', 'problema': 'p",75.0,479,271,208,2598
+extracao_dados,Role Prompting,O fone de ouvido Sony WH-1000XM5 que pedi parou de funcionar,"{
+  ""produto"": ""Sony WH-1000XM5"",
+  ""problema"": ""parou de funcionar"",
+  ""prazo_m","{'produto': 'Fone de ouvido Sony WH-1000XM5', 'problema': 'p",50.0,529,338,191,2728
+extracao_dados,Zero-Shot,Meu tênis Nike Air Max 270 de R$599 chegou com solado descol,"{
+  ""produto"": ""Nike Air Max 270"",
+  ""problema"": ""solado descollado"",
+  ""prazo_m","{'produto': 'Tênis Nike Air Max 270', 'problema': 'solado de",50.0,426,185,241,3614
+extracao_dados,Few-Shot,Meu tênis Nike Air Max 270 de R$599 chegou com solado descol,"{""produto"": ""Tênis Nike Air Max 270"", ""problema"": ""solado descollado"", ""prazo_me","{'produto': 'Tênis Nike Air Max 270', 'problema': 'solado de",100.0,569,309,260,3355
+extracao_dados,Chain-of-Thought,Meu tênis Nike Air Max 270 de R$599 chegou com solado descol,"{
+  ""produto"": ""tênis Nike Air Max 270"",
+  ""problema"": ""solado descollado"",
+  ""p","{'produto': 'Tênis Nike Air Max 270', 'problema': 'solado de",100.0,442,266,176,10083
+extracao_dados,Role Prompting,Meu tênis Nike Air Max 270 de R$599 chegou com solado descol,"{
+  ""produto"": ""tênis Nike Air Max 270"",
+  ""problema"": ""solado descollado"",
+  ""p","{'produto': 'Tênis Nike Air Max 270', 'problema': 'solado de",75.0,519,333,186,2473
+extracao_dados,Zero-Shot,A cafeteira Nespresso Vertuo que comprei por R$450 não liga ,"{
+  ""produto"": ""cafeteira Nespresso Vertuo"",
+  ""problema"": ""não liga desde o pri","{'produto': 'Cafeteira Nespresso Vertuo', 'problema': 'não l",50.0,382,187,195,4382
+extracao_dados,Few-Shot,A cafeteira Nespresso Vertuo que comprei por R$450 não liga ,"{""produto"": ""Cafeteira Nespresso Vertuo"", ""problema"": ""não liga"", ""prazo_mencion","{'produto': 'Cafeteira Nespresso Vertuo', 'problema': 'não l",75.0,569,311,258,3522
+extracao_dados,Chain-of-Thought,A cafeteira Nespresso Vertuo que comprei por R$450 não liga ,"{
+  ""produto"": ""cafeteira Nespresso Vertuo"",
+  ""problema"": ""não liga desde o pri","{'produto': 'Cafeteira Nespresso Vertuo', 'problema': 'não l",50.0,430,268,162,2438
+extracao_dados,Role Prompting,A cafeteira Nespresso Vertuo que comprei por R$450 não liga ,"{
+  ""produto"": ""cafeteira Nespresso Vertuo"",
+  ""problema"": ""não liga desde o pri","{'produto': 'Cafeteira Nespresso Vertuo', 'problema': 'não l",50.0,585,335,250,3517
+extracao_dados,Zero-Shot,Recebi uma mochila Samsonite completamente diferente do que ,"{
+  ""produto"": ""mochila Samsonite"",
+  ""problema"": ""produto diferente do que apar","{'produto': 'Mochila Samsonite', 'problema': 'produto difere",75.0,386,179,207,2965
+extracao_dados,Few-Shot,Recebi uma mochila Samsonite completamente diferente do que ,"{""produto"": ""Mochila Samsonite"", ""problema"": ""completamente diferente do que apa","{'produto': 'Mochila Samsonite', 'problema': 'produto difere",75.0,511,303,208,3420
+extracao_dados,Chain-of-Thought,Recebi uma mochila Samsonite completamente diferente do que ,"{
+  ""produto"": ""mochila Samsonite"",
+  ""problema"": ""completamente diferente do qu","{'produto': 'Mochila Samsonite', 'problema': 'produto difere",75.0,456,260,196,2618
+extracao_dados,Role Prompting,Recebi uma mochila Samsonite completamente diferente do que ,"{
+  ""produto"": ""mochila Samsonite"",
+  ""problema"": ""produto diferente do que apar","{'produto': 'Mochila Samsonite', 'problema': 'produto difere",75.0,506,327,179,2831

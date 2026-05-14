@@ -1,0 +1,22 @@
+{
+    "classificacao_sentimento": [
+        {"input": "Produto chegou antes do prazo, qualidade excelente!", "output": "POSITIVO"},
+        {"input": "Veio com defeito e o suporte demorou 10 dias para responder.", "output": "NEGATIVO"},
+        {"input": "Entrega no prazo, mas a embalagem estava amassada.", "output": "MISTO"}
+    ],
+    "classificacao_urgencia": [
+        {"input": "Fui cobrado indevidamente e preciso de estorno urgente!", "output": "ALTA"},
+        {"input": "Meu pedido está atrasado há 4 dias.", "output": "MEDIA"},
+        {"input": "Quero saber o prazo de entrega para minha região.", "output": "BAIXA"}
+    ],
+    "extracao_dados": [
+        {
+            "input": "Comprei um Notebook Dell por R$3.800 e chegou com a tela trincada.",
+            "output": "{\"produto\": \"Notebook Dell\", \"problema\": \"tela trincada\", \"prazo_mencionado\": null, \"valor\": \"R$3.800\"}"
+        },
+        {
+            "input": "O fone Sony parou de funcionar depois de uma semana.",
+            "output": "{\"produto\": \"Fone Sony\", \"problema\": \"parou de funcionar\", \"prazo_mencionado\": \"uma semana\", \"valor\": null}"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "classificacao": {
+        "instrucao_padrao": "Classifique a mensagem conforme as categorias fornecidas.",
+        "formato_padrao": "Responda APENAS com a categoria, sem explicações adicionais."
+    },
+    "extracao": {
+        "instrucao_padrao": "Extraia as informações solicitadas da mensagem e retorne em JSON.",
+        "formato_padrao": "Retorne APENAS o JSON, sem texto adicional."
+    },
+    "sumarizacao": {
+        "instrucao_padrao": "Resuma o conteúdo em bullet points objetivos.",
+        "formato_padrao": "Use no máximo 3 bullet points, cada um com até 15 palavras."
+    }
+}

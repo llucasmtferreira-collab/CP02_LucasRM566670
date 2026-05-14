@@ -1,0 +1,38 @@
+{
+    "classificacao_sentimento": [
+        {"input": "Produto chegou antes do prazo e a qualidade superou minhas expectativas!", "esperado": "POSITIVO"},
+        {"input": "Veio completamente quebrado dentro da caixa. Péssima embalagem e suporte não responde.", "esperado": "NEGATIVO"},
+        {"input": "Entrega no prazo, produto ok, mas a embalagem estava um pouco amassada.", "esperado": "MISTO"},
+        {"input": "Tudo certo com o pedido. Recebi conforme descrito.", "esperado": "NEUTRO"},
+        {"input": "Adorei o produto! Já é o terceiro que compro aqui, recomendo demais.", "esperado": "POSITIVO"}
+    ],
+    "classificacao_urgencia": [
+        {"input": "Meu cartão foi cobrado duas vezes no mesmo pedido. Preciso do estorno com urgência!", "esperado": "ALTA"},
+        {"input": "Gostaria de saber se o produto X está disponível em azul.", "esperado": "BAIXA"},
+        {"input": "Meu pedido foi despachado há 8 dias e ainda não chegou. Podem verificar?", "esperado": "MEDIA"},
+        {"input": "Recebi o produto errado. Preciso trocar antes do evento no fim de semana.", "esperado": "ALTA"},
+        {"input": "Quando vocês vão lançar a versão 2024 desse modelo?", "esperado": "BAIXA"}
+    ],
+    "extracao_dados": [
+        {
+            "input": "Comprei um Notebook Dell Inspiron por R$3.800 há 3 dias e ele chegou com a tela trincada.",
+            "esperado": {"produto": "Notebook Dell Inspiron", "problema": "tela trincada", "prazo_mencionado": "3 dias", "valor": "R$3.800"}
+        },
+        {
+            "input": "O fone de ouvido Sony WH-1000XM5 que pedi parou de funcionar depois de uma semana de uso.",
+            "esperado": {"produto": "Fone de ouvido Sony WH-1000XM5", "problema": "parou de funcionar", "prazo_mencionado": "uma semana", "valor": null}
+        },
+        {
+            "input": "Meu tênis Nike Air Max 270 de R$599 chegou com solado descollado.",
+            "esperado": {"produto": "Tênis Nike Air Max 270", "problema": "solado descollado", "prazo_mencionado": null, "valor": "R$599"}
+        },
+        {
+            "input": "A cafeteira Nespresso Vertuo que comprei por R$450 não liga desde o primeiro dia.",
+            "esperado": {"produto": "Cafeteira Nespresso Vertuo", "problema": "não liga", "prazo_mencionado": "primeiro dia", "valor": "R$450"}
+        },
+        {
+            "input": "Recebi uma mochila Samsonite completamente diferente do que aparece no site.",
+            "esperado": {"produto": "Mochila Samsonite", "problema": "produto diferente do anunciado", "prazo_mencionado": null, "valor": null}
+        }
+    ]
+}
